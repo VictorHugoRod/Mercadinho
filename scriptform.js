@@ -3,7 +3,7 @@ function logar(){
     let senha = document.getElementById('senha').value;
 
     if(usuario == 'admin' && senha == 'admin'){
-        window.location.href = "/mercadinho/admin/catalogoadmin.html";
+        window.location.href = "";
     }else if(usuario == 'admin' && senha != 'admin'){
         alert('Senha Incorreta');
     }else{

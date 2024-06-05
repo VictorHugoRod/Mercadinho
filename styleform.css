@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #333;
 }
 
 .container-form {
@@ -40,7 +40,7 @@ button {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ff6347;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -48,5 +48,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:  #cc4b39;
 }
