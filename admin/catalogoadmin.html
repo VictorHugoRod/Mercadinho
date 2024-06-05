@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styleadmin.css">
 </head>
+
 <body>
 
-<header>
-  <h1>Mercadinho</h1>
-  <button id="sair" onclick="sair()">SAIR</button>
-</header>
+  <header>
+    <h1>Mercadinho</h1>
+    <button id="sair" onclick="sair()">SAIR</button>
+  </header>
 
-<script src="scriptadmin.js"></script>
+  <section>
+    <h2>Cadastro de Produtos</h2>
+    <form id="form-cadastro">
+
+      <div class="form-grupo">
+        <label for="nomeproduto">Nome</label>
+        <input type="text" name="nomeproduto" id="nomeproduto" required placeholder="Ex: Caixa de Leite">
+      </div>
+
+      <div class="form-grupo">
+        <label for="descricao">Descrição</label>
+        <input type="text" id="descricao" required placeholder="Ex: Caixa com 12 UN.">
+      </div>
+
+      <div class="form-grupo">
+        <label for="preco">Preço</label>
+        <input type="number" name="preco" id="preco" required placeholder="Ex: 12,50">
+      </div>
+
+      <div class="form-grupo">
+        <label for="url">URL da imagem</label>
+        <input type="url" name="url" id="url" required>
+      </div>
+
+      <div class="form-grupo">
+        <button id="cadastrar">CADASTRAR</button>
+      </div>
+
+    </form>
+  </section>
+
+
+  <script src="scriptadmin.js"></script>
 </body>
+
 </html>
