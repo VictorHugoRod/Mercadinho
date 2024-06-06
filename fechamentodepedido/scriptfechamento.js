@@ -1,6 +1,6 @@
 //FUNÇÃO PARA VOLTAR A PAGINA DE LOGIN----------------------------------------
 function voltar(){
-    window.location.href = "../../usuario/catalogousuario.html";
+    window.location.href = "../usuario/catalogousuario.html";
 }
 //----------------------------------------------------------------------------
 
