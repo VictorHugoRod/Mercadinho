@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #616161;
+}
+
+/*HEADER---------------------------------------------------------------------*/
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #mercadinho{
+    margin: 0;
+    position: absolute;
+    top: 16px; 
+    left: 557px;
+  }
+  
+  #voltar{
+    margin-left: auto;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #voltar:hover{
+    background-color: #cc4b39;
+  }
+/*--------------------------------------------------------------------------*/
+
+/*ESTILIZAÇÃO FORMULÁRIO INFO CLIENTE---------------------------------------*/
+.container{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px; 
+    left: 150px;
+}
+
+#formulariolabel{
+    margin-top: 0;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],input[type="number"],select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#cep{
+    width: 120px;
+}
+
+#numero{
+    width: 60px;
+    text-align: center;
+}
+
+#cvc{
+    width: 60px;
+    text-align: center;
+}
+
+#datavalidade{
+    width: 100px;
+}
+
+#confirmar{
+    margin: 0 auto;
+    display: block;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#confirmar:hover{
+    background-color: #cc4b39;
+}
+/*--------------------------------------------------------------------------*/
