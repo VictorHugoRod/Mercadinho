@@ -15,12 +15,12 @@
     <h1>Mercadinho</h1>
     <button id="sair" onclick="sair()">SAIR</button>
   </header>
-<!-------------------------------------------------------------------------------------------------------->
+  <!-------------------------------------------------------------------------------------------------------->
 
-<!--FORMULÁRIO DE INSERÇÃO-------------------------------------------------------------------------------->
+  <!--FORMULÁRIO DE INSERÇÃO-------------------------------------------------------------------------------->
   <section>
     <h2>Cadastro de Produtos</h2>
-    <form id="form-cadastro">
+    <div id="form-cadastro">
 
       <div class="form-grupo">
         <label for="nomeproduto">Nome</label>
@@ -34,7 +34,7 @@
 
       <div class="form-grupo">
         <label for="preco">Preço</label>
-        <input type="number" name="preco" id="preco" required placeholder="Ex: 12,50">
+        <input type="number" name="preco" id="preco" required placeholder="Ex: 12.50">
       </div>
 
       <div class="form-grupo">
@@ -43,12 +43,33 @@
       </div>
 
       <div class="form-grupo">
-        <button id="cadastrar">CADASTRAR</button>
+        <button id="cadastrar" onclick="create()">CADASTRAR</button>
       </div>
 
-    </form>
+    </div>
   </section>
-<!-------------------------------------------------------------------------------------------------------->
+  <!-------------------------------------------------------------------------------------------------------->
+
+  <!--TABELA RESPONSIVA------------------------------------------------------------------------------------->
+  <div class="table-container">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Imagem</th>
+            <th>Item</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="item-list">
+          <!-- Itens serão adicionados aqui dinamicamente -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-------------------------------------------------------------------------------------------------------->
 
   <script src="scriptadmin.js"></script>
 </body>

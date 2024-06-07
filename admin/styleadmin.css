@@ -44,7 +44,7 @@ section{
   padding: 20px;
   position: absolute;
   top: 90px; 
-  left: 22px;
+  left: 50px;
 }
 
 .form-group{
@@ -80,5 +80,52 @@ label{
 
 #cadastrar:hover{
   background-color: #cc4b39;
+}
+/*-------------------------------------------------------------------*/
+
+/*CATALOGO-----------------------------------------------------------*/
+.table-container {
+  width: 750px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 90px; 
+  left: 510px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.table th {
+  background-color: white;
+}
+
+#editar, #excluir{
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#editar:hover, #excluir:hover{
+  background-color: #cc4b39;
+}
+
+#imgcatalogo{
+width: 125px;
+height: 125px;
+border-radius: 5px;
+
 }
 /*-------------------------------------------------------------------*/
