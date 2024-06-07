@@ -35,4 +35,53 @@ body{
     background-color: #cc4b39;
   }
 /*-------------------------------------------------------------------*/
-  
+/*CATALOGO-----------------------------------------------------------*/
+.table-container {
+  width: 750px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 90px; 
+  left: 70px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.table th {
+  background-color: white;
+}
+
+#carrinho{
+  background-color: #ff6347;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#carrinho:hover{
+  background-color: #cc4b39;
+}
+
+#carrinhoimg{
+  width: 25px;
+  height: 25px;
+}
+
+#imgcatalogo{
+width: 125px;
+height: 125px;
+border-radius: 5px;
+
+}
+/*-------------------------------------------------------------------*/
