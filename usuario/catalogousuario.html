@@ -16,6 +16,7 @@
     <button id="sair" onclick="sair()">SAIR</button>
   </header>
   <!-------------------------------------------------------------------------------------------------------->
+
   <!--TABELA RESPONSIVA------------------------------------------------------------------------------------->
   <div class="table-container">
     <div class="table-responsive">
@@ -29,12 +30,27 @@
           </tr>
         </thead>
         <tbody id="item-list">
-          <!-- Itens serão adicionados aqui dinamicamente -->
+          
         </tbody>
       </table>
     </div>
   </div>
   <!------------------------------------------------------------------------------------------->
+
+  <!--CARRINHO--------------------------------------------------------------------------------->
+  <div class="containercarrinho">
+    <div class="carrinho-responsive">
+      <h2>Carrinho de Compras</h2>
+      <table>
+        <tbody id="carrinho-body">
+          
+        </tbody>
+      </table>
+      <div id="valor-total" class="valortotal"></div> <!-- Elemento para o valor total -->
+      <button class="finalizarcompra" onclick="finalizarCompra()">FINALIZAR COMPRA</button>
+    </div>
+  </div>
+ <!------------------------------------------------------------------------------------------->
 
   <script src="scriptusuario.js"></script>
 </body>

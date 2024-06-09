@@ -85,3 +85,82 @@ border-radius: 5px;
 
 }
 /*-------------------------------------------------------------------*/
+
+/*CARRINHO-----------------------------------------------------------*/
+.imagemcarrinho {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.containercarrinho {
+  width: 450px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 90px;
+  left: 960px;
+}
+
+.containercarrinho h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#carrinho-body {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#carrinho-body td,
+#carrinho-body th {
+  padding: 15px; /* Aumenta o espaçamento entre as células */
+  border-bottom: 1px solid #ddd;
+}
+
+#carrinho-body th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+
+.valortotal {
+  display: block;
+  margin: 20px auto; /* Adiciona margem automática para centralizar horizontalmente */
+  font-size: 18px; /* Aumenta o tamanho da fonte do valor total */
+  font-weight: bold; /* Deixa o valor total em negrito */
+  text-align: center; /* Centraliza o valor total */
+}
+
+
+.removercarrinho{
+  background-color: #ff6347;
+  color: #fff;
+  margin: 20px auto; /* Centraliza o botão de finalizar compra */
+  padding: 12px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.removercarrinho:hover {
+  background-color: #cc4b39;
+}
+
+.finalizarcompra {
+  display: block;
+  margin: 20px auto; /* Centraliza o botão de finalizar compra */
+  padding: 15px 90px; /* Ajusta o padding do botão */
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.finalizarcompra:hover {
+  background-color: #cc4b39;
+}
+/*-------------------------------------------------------------------*/
