@@ -2,12 +2,12 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #616161;
+    background-color: #fdb0ce;
 }
 
 /*HEADER---------------------------------------------------------------------*/
 header{
-    background-color: #333;
+    background-color: #f571a4;
     color: #fff;
     padding: 16px;
     display: flex;
@@ -23,7 +23,7 @@ header{
   
   #voltar{
     margin-left: auto;
-    background-color: #ff6347;
+    background-color: #f72ba2;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -32,7 +32,7 @@ header{
   }
   
   #voltar:hover{
-    background-color: #cc4b39;
+    background-color: #f51a9a;
   }
 /*--------------------------------------------------------------------------*/
 
@@ -88,7 +88,7 @@ input[type="text"],input[type="number"],select {
 #confirmar{
     margin: 0 auto;
     display: block;
-    background-color: #ff6347;
+    background-color: #f72ba2;
     color: #fff;
     border: none;
     padding: 15px 20px;
@@ -98,6 +98,6 @@ input[type="text"],input[type="number"],select {
 }
 
 #confirmar:hover{
-    background-color: #cc4b39;
+    background-color: #f51a9a;
 }
 /*--------------------------------------------------------------------------*/

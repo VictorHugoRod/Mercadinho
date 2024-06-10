@@ -2,13 +2,13 @@ body{
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #616161;
+  background-color: #fdb0ce;
   }
   
 
 /*HEADER-------------------------------------------------------------*/
   header{
-    background-color: #333;
+    background-color: #f571a4;
     color: #fff;
     padding: 15px;
     display: flex;
@@ -23,7 +23,7 @@ body{
   }
   
   #sair{
-    background-color: #ff6347;
+    background-color: #f72ba2;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -32,7 +32,7 @@ body{
   }
   
   #sair:hover{
-    background-color: #cc4b39;
+    background-color: #f51a9a;
   }
 /*-------------------------------------------------------------------*/
 /*CATALOGO-----------------------------------------------------------*/
@@ -62,7 +62,7 @@ body{
 }
 
 #carrinho{
-  background-color: #ff6347;
+  background-color: #f72ba2;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
@@ -70,7 +70,7 @@ body{
 }
 
 #carrinho:hover{
-  background-color: #cc4b39;
+  background-color: #f51a9a;
 }
 
 #carrinhoimg{
@@ -136,7 +136,7 @@ border-radius: 5px;
 
 
 .removercarrinho{
-  background-color: #ff6347;
+  background-color: #f72ba2;
   color: #fff;
   margin: 20px auto; /* Centraliza o botão de finalizar compra */
   padding: 12px 12px;
@@ -146,14 +146,14 @@ border-radius: 5px;
 }
 
 .removercarrinho:hover {
-  background-color: #cc4b39;
+  background-color: #f51a9a;
 }
 
 .finalizarcompra {
   display: block;
   margin: 20px auto; /* Centraliza o botão de finalizar compra */
   padding: 15px 90px; /* Ajusta o padding do botão */
-  background-color: #ff6347;
+  background-color: #f72ba2;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -161,6 +161,6 @@ border-radius: 5px;
 }
 
 .finalizarcompra:hover {
-  background-color: #cc4b39;
+  background-color: #f51a9a;
 }
 /*-------------------------------------------------------------------*/
