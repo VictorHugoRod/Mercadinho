@@ -128,17 +128,17 @@ border-radius: 5px;
 
 .valortotal {
   display: block;
-  margin: 20px auto; /* Adiciona margem automática para centralizar horizontalmente */
-  font-size: 18px; /* Aumenta o tamanho da fonte do valor total */
-  font-weight: bold; /* Deixa o valor total em negrito */
-  text-align: center; /* Centraliza o valor total */
+  margin: 20px auto; 
+  font-size: 18px; 
+  font-weight: bold; 
+  text-align: center; 
 }
 
 
 .removercarrinho{
   background-color: #f72ba2;
   color: #fff;
-  margin: 20px auto; /* Centraliza o botão de finalizar compra */
+  margin: 20px auto; 
   padding: 12px 12px;
   border: none;
   border-radius: 5px;
@@ -151,8 +151,8 @@ border-radius: 5px;
 
 .finalizarcompra {
   display: block;
-  margin: 20px auto; /* Centraliza o botão de finalizar compra */
-  padding: 15px 90px; /* Ajusta o padding do botão */
+  margin: 20px auto; 
+  padding: 15px 90px; 
   background-color: #f72ba2;
   color: #fff;
   border: none;

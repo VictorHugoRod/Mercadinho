@@ -101,3 +101,39 @@ input[type="text"],input[type="number"],select {
     background-color: #f51a9a;
 }
 /*--------------------------------------------------------------------------*/
+
+/*CARRINHO-----------------------------------------------------------*/
+.table-container {
+    width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px; 
+    left: 500px;
+  }
+
+  .imagemcarrinho{
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+  }
+
+  .table-container .table td:nth-child(1) {
+    padding-right: 50px; 
+}
+
+  .table-container .table td:nth-child(2) {
+    padding-right: 50px; 
+}
+
+.valortotal {
+    display: block;
+    margin: 20px auto; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+  }
+  
+  /*-------------------------------------------------------------------*/
