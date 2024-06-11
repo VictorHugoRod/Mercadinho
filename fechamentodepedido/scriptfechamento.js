@@ -18,7 +18,7 @@ function verificarpagamento(){
                 alert('O RECEBIMENTO DO PIX SERÁ VERIFICADO ANTES DO ENVIO, CASO NÃO SEJA ENCONTRADO NO SISTEMA, ENTRAREMOS EM CONTATO COM O CLIENTE')
                 alert('PEDIDO CONFIRMADO!!');
                 localStorage.removeItem('carrinhoDeCompras');
-
+                location.reload();
             } else {
                 alert('PREENCHA TODOS OS CAMPOS PARA O PAGAMENTO COM PIX');
 
